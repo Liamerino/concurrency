@@ -48,10 +48,10 @@ The main objectives are to understand and apply concepts of processes and inter-
 ## Preparation:
 1. Use the online reference below and answer the questions:
 Reference: [Process handling in C#](https://www.dotnetperls.com/process)
-- Which namespace is needed?
-- Which class and method are used to run a process?
-- How can we modify properties of a process?
-- How can we get a list of currently running processes?
+- Which namespace is needed? System.Diagnostics
+- Which class and method are used to run a process? Process.Start()
+- How can we modify properties of a process? ProcessStartInfo()
+- How can we get a list of currently running processes? Process.GetProcesses() gives you an array of currently running processes
 2. Use the online reference below to find more information about **Process** component.
 Reference: [System calls to make processes](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.process?view=net-6.0)
 

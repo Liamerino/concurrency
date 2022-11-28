@@ -6,3 +6,7 @@ MergeSort/obj/
 .DS_Store
 */bin/
 */obj/
+*.v2
+MergeSort/.vs/MergeSort/v17/.suo
+MergeSort/.vscode/launch.json
+MergeSort/.vscode/tasks.json
